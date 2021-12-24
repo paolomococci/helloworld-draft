@@ -29,21 +29,11 @@ import local.example.draft.views.home.HomeView;
 public class MainLayout
         extends AppLayout {
 
-    public static class MenuItemInfo {
-
-        private final String text;
-        private final String iconClass;
-        private final Class<? extends Component> view;
-
-        public MenuItemInfo(
-                String text,
-                String iconClass,
-                Class<? extends Component> view
-        ) {
-            this.text = text;
-            this.iconClass = iconClass;
-            this.view = view;
-        }
+    public record MenuItemInfo(
+            String text,
+            String iconClass,
+            Class<? extends Component> view
+    ) {
 
         public String getText() {
             return text;
