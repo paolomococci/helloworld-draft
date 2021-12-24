@@ -23,9 +23,10 @@ public class HelloView
     public HelloView() {
         nameTextField = new TextField("Please enter your name:");
         Button helloButton = new Button("Hello");
-        helloButton.addClickListener(
-                e -> Notification.show("Hello " + nameTextField.getValue() + "!")
-        );
+        helloButton.addClickListener(e -> {
+                Notification.show("Hello " + nameTextField.getValue() + "!");
+                nemeTextField.setValue("");
+        });
         helloButton.addClickShortcut(Key.ENTER);
 
         setMargin(true);
