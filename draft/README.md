@@ -1,6 +1,6 @@
 # draft
 
-## developed thanks to the Spring Boot and Vaadin frameworks
+## developed thanks to the Spring Boot and Vaadin Flow frameworks
 
 Demo web application on the "Hello World" genre, but which provides for user authentication.
 Of course, these are two fictitious users.
