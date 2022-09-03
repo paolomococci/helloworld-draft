@@ -9,7 +9,7 @@ mvn io.quarkus.platform:quarkus-maven-plugin:2.11.3.Final:create -DprojectGroupI
 ## generate the classes
 
 ```shell
-./gradlew quarkusGenerateCode
+./gradlew quarkusGenerateCodeDev
 ```
 
 ## run application in development mode
