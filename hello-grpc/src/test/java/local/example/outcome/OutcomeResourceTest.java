@@ -18,4 +18,13 @@ public class OutcomeResourceTest {
              .statusCode(200)
              .body(is("Hello"));
     }
+
+    @Test
+    public void testHelloEndpointWithName() {
+        given()
+                .when().get("/outcome/John")
+                .then()
+                .statusCode(200)
+                .body(is("Hello John"));
+    }
 }
