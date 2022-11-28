@@ -3,7 +3,7 @@
 ## scaffolding
 
 ```shell
-mvn io.quarkus.platform:quarkus-maven-plugin:2.14.1.Final:create -DprojectGroupId=local.example -DprojectArtifactId=hello-grpc -DclassName="local.example.outcome.OutcomeResource" -Dpath="/outcome" -Dextensions="quarkus-resteasy-reactive"
+mvn io.quarkus.platform:quarkus-maven-plugin:2.14.2.Final:create -DprojectGroupId=local.example -DprojectArtifactId=hello-grpc -DclassName="local.example.outcome.OutcomeResource" -Dpath="/outcome" -Dextensions="quarkus-resteasy-reactive"
 ```
 
 ## generate the classes
